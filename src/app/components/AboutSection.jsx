@@ -33,7 +33,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Intel Unnati</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>META Frontend Developer</li>
       </ul>
     ),
   },

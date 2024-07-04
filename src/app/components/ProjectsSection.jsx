@@ -32,6 +32,24 @@ const projectsData = [
     gitUrl: "https://github.com/Aniket-404/Phishing-Prevention-Extension",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "Wine Quality Prediction",
+    description: "Predicting wine quality using machine learning based on chemical properties and characteristics.",
+    image: "/images/projects/4.jpg",
+    tag: ["All", "Data Analytics"],
+    gitUrl: "https://github.com/Aniket-404/Wine-Quality-Prediction",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Stock Market Prediction",
+    description: "Predicting stock market trends using linear regression analysis.",
+    image: "/images/projects/5.jpg",
+    tag: ["All", "Data Analytics"],
+    gitUrl: "https://github.com/Aniket-404/Stock-Market-Prediction",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -73,11 +91,11 @@ const ProjectsSection = () => {
           name="GenAI"
           isSelected={tag === "GenAI"}
         />
-        {/* <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
-          name="Automation"
-          isSelected={tag === "Automation"}
-        /> */}
+          name="Data Analytics"
+          isSelected={tag === "Data Analytics"}
+        />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

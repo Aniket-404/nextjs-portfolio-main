@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/Aniket-404/Stock-Market-Prediction",
     previewUrl: "/",
   },
+  {
+    id: 6,
+    title: "Gender-Age Classification",
+    description: "Empower image-based gender and age classification with CNNs.",
+    image: "/images/projects/6.jpg",
+    tag: ["All", "Data Analytics"],
+    gitUrl: "https://www.kaggle.com/code/aniketk26/gender-age-classification",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {

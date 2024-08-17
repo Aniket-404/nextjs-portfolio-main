@@ -72,7 +72,7 @@ const EmailSection = () => {
       </div>
       </div>
       <div className="flex items-center justify-center">
-      <Image src="/images/connect.png" width={400} height={400} />
+      <Image src="/images/connect.png" alt="Connect image" width={400} height={400} />
         {/* {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!

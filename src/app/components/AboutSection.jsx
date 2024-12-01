@@ -35,7 +35,7 @@ const TAB_DATA = [
         <li>Advanced React & React Native by Meta</li>
         <li>Essentials in Software Development by Microsoft and LinkedIn</li>
         <li>Python & Django Framework for Beginners</li>
-        <li>Intel Unnati</li>
+        <li>Intel Unnati AIML Course</li>
       </ul>
     ),
   },

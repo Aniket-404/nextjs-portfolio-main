@@ -32,8 +32,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Advanced React & React Native by Meta</li>
+        <li>Essentials in Software Development by Microsoft and LinkedIn</li>
+        <li>Python & Django Framework for Beginners</li>
         <li>Intel Unnati</li>
-        <li>META Frontend Developer</li>
       </ul>
     ),
   },
